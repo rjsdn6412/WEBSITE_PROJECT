@@ -3,67 +3,151 @@ a:link { color: rgb(0, 0, 0); text-decoration: none;}
 /* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
 a:visited { color: #000000; text-decoration: none;}	
 /* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
-a:hover { color: #000000; text-decoration: underline;}
+a:hover { color: #ff0000; text-decoration: underline; font-size: 102%;}
 
 body{
+    
+    /* background-color: #093421; */
+    /* background-color: rgb(255, 255, 255); */
+
+    /* background-image: url('bg/bg1.jpg'); */
     margin:0;
-}
-h1 {
-    font-size: 80px;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom:1px solid gray;
-    margin:0;
-    padding:10px;
 }
 
-h2 {
-    font-size: 60px;
+#grid h1 {
+    /* font-size: 10vw; */
+    font-size:50px;
+    color:red;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border-bottom:1px solid gray; */
     margin:0;
-    padding:10px
-} 
+    /* padding:10px; */
+    padding-bottom: 0px;
+
+    margin:0;
+    padding:0;
+    padding-left:5px;
+    padding-top:5px;
+
+    line-height: 90%;
+    font-size: 50px;
+}
+
+#ygam p{
+    padding:10px;
+    text-align: center;
+    /* word-spacing: -2px;
+    word-break:break-all; */
+    margin:5px;
+    /* width:255px; */
+
+    border-radius: 0%;
+    border : 1px solid black;
+}
+
+.content summary{
+    padding:0px;
+    margin:0px;
+    font-size:20px;
+    font-weight: lighter;
+}
+
 
 
 
 #grid{
-
     display: grid;
-    grid-template-columns: 200px 1fr;
+    
+    /* grid-template-columns: 200px 200px 400px; */
+    grid-template-columns:1.618fr 1fr 1fr 0fr;
 }
 
-#grid ul{
+#grid p{
     list-style: none; 
     
+    line-height: 90%;
     font-size: 15px;
-    border-right:1px solid gray;
-    width: 179px;
-    height: 800px;
+    /* font-weight: bolder; */
+    
     margin:0;
-    padding:10px;
+    padding:0;
+    padding-left:5px;
+    padding-top:5px;
     
     
-    position:sticky;
-    top:0px;
+    /* position:sticky;
+    top:0px; */
     /* background-color: yellow; */
-    
-
 }
 
-#concept{
-    border-left:1px solid gray
+
+#ipaddress p {
+    margin-left: 10px;
+    line-height: 130%;
 }
 
-#contents h2, p{
+#contents {
     padding:10px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-left:5px;
+    margin:0px;
+}
+
+#contents img {
+    /* width:60vw; */
+    width:140px;
+    /* position: absolute;
+    top: 260px; left: 10px; */
+    /* background: blue; */
+}
+
+#nicemapoguminaward ul{
+    list-style: none;
+    
+    
+    font-size: 15px;
+    /* font-weight: bolder; */
+
+    margin:0;
+    padding:0px;
+
+    padding-top:5px;
+    padding-bottom:25px;
+    
+    
+    /* position:sticky;
+    top:0px; */
+    /* background-color: yellow; */
+}
+
+#은진편지 p{
+    color:rgb(33, 33, 33);
+    background-color:rgb(244, 159, 173);
+}
+
+#nicemapoguminaward li{
+    
+    /* border-bottom:1px solid rgb(0, 0, 0); */
+}
+
+#nicemapoguminaward h1 {
+    font-size:15px;
+}
+
+#ipaddress p{
+    margin:0px;
+    padding:0px;
+}
+
+#awardhistory {
+    font-size:15px;
+}
+
+#awardhistory h4{
+    /* position:absolute;
+    top: 280px; left: 60px; */
+    color:rgb(0, 0, 0);
     
 }
 
-#contents img{
-    border:2px solid black;
-    vertical-align: auto;
-    margin: 50px 50px;
-    margin-right:0;
-    width: 200px;
-}
